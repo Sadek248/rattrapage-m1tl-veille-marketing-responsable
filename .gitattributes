@@ -1,0 +1,7 @@
+*.pdf binary
+*.png binary
+*.zip binary
+*.csv text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.md text eol=lf

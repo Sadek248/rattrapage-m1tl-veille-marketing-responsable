@@ -1,0 +1,16 @@
+{
+  "documents": 19,
+  "removed_rows": 0,
+  "clusters": 1,
+  "clustering_accepted": false,
+  "best_candidate_k": 5,
+  "best_candidate_silhouette": 0.04212222828988572,
+  "silhouette": null,
+  "metric": "cosine",
+  "acceptance_threshold": 0.1,
+  "random_state": 42,
+  "analyzed_fields": [
+    "title",
+    "summary"
+  ]
+}

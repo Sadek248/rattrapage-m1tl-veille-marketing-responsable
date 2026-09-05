@@ -1,0 +1,13 @@
+{
+  "consultation_date": "2026-09-05",
+  "feeds": [
+    {
+      "organisation": "IAB Tech Lab",
+      "url": "https://iabtechlab.com/feed/",
+      "status": "ok",
+      "candidates": 1
+    }
+  ],
+  "candidates": 1,
+  "all_failed": false
+}
