@@ -6,7 +6,9 @@ Raindrop.io : collection de liens annotés avec catégories par tags et publicat
 - https://help.raindrop.io/public-page
 - https://raindrop.io/
 
-Le statut effectif de publication est enregistré dans config/publication.json. Une procédure seule ne vaut pas une veille en ligne. Tant que watch_url est vide, la consigne de mise en place reste à finaliser.
+La collection a été importée et publiée le 05/09/2026 : 19 favoris, 19 annotations et 18 tags. Le statut de publication est enregistré dans config/publication.json.
+
+Accès public : https://sadekchouikha-88.raindrop.page/veille-marketing-responsable-m1-tech-lead-74748020
 
 ## Collection et contenus
 Titre : Veille marketing responsable - M1 Tech Lead

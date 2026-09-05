@@ -4,7 +4,9 @@ Projet de rattrapage M1 Tech Lead, Digital Campus - CHOUIKHA Mohamed Sadok.
 
 **Dépôt public :** https://github.com/Sadek248/rattrapage-m1tl-veille-marketing-responsable
 
-**État de livraison :** analyse, sources et étude corrigées et testées. La collection Raindrop doit encore être importée et rendue publique sur le compte de l'étudiant. Le PDF porte explicitement la mention « version à finaliser » tant que ce lien n'est pas vérifié. Les URL et le statut sont centralisés dans config/publication.json.
+**État de livraison :** finalisé. Analyse, sources et étude corrigées et testées ; collection Raindrop publiée avec 19 références annotées. Le PDF final contient les liens publics. Les URL et le statut sont centralisés dans config/publication.json. Seul le dépôt sur la plateforme de l'établissement reste à effectuer.
+
+**Veille publique :** https://sadekchouikha-88.raindrop.page/veille-marketing-responsable-m1-tech-lead-74748020
 
 ## Exigences et planning indicatif (150 minutes)
 
@@ -70,13 +72,13 @@ Raindrop est l'outil de curation retenu. outputs/veille_raindrop.csv importe tit
 
 Le PDF global fait 5 pages : accès aux livrables, étude de 2 pages, bibliographie. La limite du sujet concerne l'étude, pas tout le dossier. Le fichier outputs/Etude_de_marche.pdf contient uniquement cette étude.
 
-Pour finaliser après obtention du lien public de la collection :
+Pour reproduire la finalisation après un nouveau contrôle de la collection :
 
 ```powershell
-.\.venv\Scripts\python.exe src\finalize_delivery.py --watch-url "URL_PUBLIQUE_RAINDROP" --verified-in-browser
+.\.venv\Scripts\python.exe src\finalize_delivery.py --watch-url "https://sadekchouikha-88.raindrop.page/veille-marketing-responsable-m1-tech-lead-74748020" --verified-in-browser
 ```
 
-Après vérification des 19 liens et annotations hors connexion, cette commande contrôle les URL, met à jour la configuration et régénère le PDF. Elle ne publie pas elle-même la collection. Le lien exemple n'est pas une URL réelle. Le drapeau confirme le contrôle visuel, car un statut HTTP 200 seul ne prouve pas que la collection est lisible.
+Après vérification des 19 liens et annotations hors connexion, cette commande contrôle les URL, met à jour la configuration et régénère le PDF. Elle ne publie pas elle-même la collection. Le drapeau confirme le contrôle visuel, car un statut HTTP 200 seul ne prouve pas que la collection est lisible.
 
 ## Limites
 

@@ -93,7 +93,7 @@ def build_pdf():
         story.append(Paragraph(text, STYLE["body"]))
     story += [Spacer(1, 0.3 * cm), Paragraph("Démarche et résultats vérifiables", STYLE["h1"]),
               Paragraph(f"Recherche documentaire : {len(sources)} références documentées, issues de plus de cinq organismes. Les dates, types de documents et limites de lecture sont conservés dans le corpus.", STYLE["body"]),
-              Paragraph("Veille : collection annotée préparée pour Raindrop, revue hebdomadaire et synthèse mensuelle. Collecte RSS distincte de la validation éditoriale et de l'analyse ML.", STYLE["body"]),
+              Paragraph(("Veille : collection annotée publiée sur Raindrop. " if ready else "Veille : collection annotée préparée pour Raindrop. ") + "Revue hebdomadaire et synthèse mensuelle prévues. Collecte RSS distincte de la validation éditoriale et de l'analyse ML.", STYLE["body"]),
               Paragraph(f"Analyse : scikit-learn, TF-IDF et essais KMeans de 2 à 5 groupes. Meilleure silhouette cosinus : {metrics['best_candidate_silhouette']:.3f}. Aucune partition retenue au seuil de prudence choisi ; les rapprochements documentaires restent utiles à la lecture.", STYLE["body"]),
               Paragraph("Le dossier inclut l'étude sur les deux pages suivantes et une bibliographie cliquable. Le dépôt contient les commandes de reproduction, les tests et le journal de collecte.", STYLE["body"]),
               Paragraph("Correspondance avec le sujet", STYLE["h1"]),

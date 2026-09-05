@@ -2,7 +2,7 @@
 
 ## Conclusion
 
-Le projet répond aux exigences de recherche, de code, de machine learning, d'étude de marché et de dépôt Git public. La livraison n'est pas encore complète : la collection Raindrop n'a pas été créée et vérifiée publiquement. Le PDF conserve donc une mention de version à finaliser.
+Le projet couvre les cinq exigences du sujet : recherche, veille en ligne, machine learning, étude de marché et livraison. La collection Raindrop est créée, annotée et publiée ; le PDF final intègre son lien. Aucune note n'est garantie. Seul le dépôt sur la plateforme de l'établissement reste à effectuer.
 
 ## Vérifications exécutées
 
@@ -20,7 +20,7 @@ Le projet répond aux exigences de recherche, de code, de machine learning, d'é
 | Contrôle visuel PDF | Pages rendues en PNG et relues ; pas de chevauchement ou texte coupé constaté |
 | Dépôt GitHub | Public et consultable sans connexion |
 | Recherche de secrets | Aucun motif de jeton ou clé privée détecté dans les fichiers texte suivis |
-| Veille en ligne | Fichier d'import Raindrop prêt ; collection publique non créée |
+| Veille en ligne | Collection publique créée : 19 références annotées, 18 tags ; accès sans authentification contrôlé |
 
 ## Commandes de reproduction
 
@@ -39,13 +39,15 @@ py -3.12 -m venv .venv
 | Critère | Preuve | Statut | Action restante |
 |---|---|---|---|
 | Recherche documentaire | `data/sources.csv` et bibliographie cliquable | Vérifié | Aucune |
-| Veille digitale | Import de 19 fiches annotées et routine documentée | Préparé | Importer et partager dans Raindrop |
+| Veille digitale | Collection publique de 19 fiches annotées et routine documentée | Vérifié | Aucune |
 | Script ML | Code, métriques, exports et 14 tests | Vérifié | Aucune |
 | Étude de marché | PDF autonome de 2 pages | Vérifié | Lire pour la soutenance |
-| Livraison | Dépôt public et PDF correctement nommé | Partiel | Ajouter le lien Raindrop et régénérer |
+| Livraison | Dépôt public et PDF correctement nommé avec liens | Vérifié | Déposer sur la plateforme |
 
 ## Action manuelle minimale
 
-Se connecter à Raindrop.io avec une adresse vérifiée. L'assistant peut ensuite importer `outputs/veille_raindrop.csv`, activer la page publique, vérifier les 19 fiches hors connexion, intégrer le lien et régénérer le PDF.
+Lire la fiche orale pour pouvoir expliquer la méthode et déposer le PDF final. Aucun lien ni contenu n'est à compléter.
+
+Veille publique vérifiée le 05/09/2026 : https://sadekchouikha-88.raindrop.page/veille-marketing-responsable-m1-tech-lead-74748020
 
 Le dépôt sur la plateforme de l'établissement reste à la charge de l'étudiant.
